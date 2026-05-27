@@ -1,4 +1,6 @@
-export { auth as default } from "@/app/api/auth/[...nextauth]/auth";
+import { auth } from "@/app/api/auth/[...nextauth]/auth";
+
+export default auth;
 
 export const config = {
   matcher: [
